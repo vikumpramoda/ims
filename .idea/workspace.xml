@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/ajax/approved.php" description="&lt;?php" line="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7aa08bb-8aa3-4271-bfa4-cd9f449ec9ad" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="depot" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="grn" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="grn_item" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="issue_order" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="items" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="main_stock" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="purchase" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="purchase_item" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="req" type="e3449647:DbNodeDescriptor" />
+      </path>
+      <path>
+        <item name="" type="eadb38e5:DatabaseStructure$Root" />
+        <item name="@localhost" type="e3449647:DbNodeDescriptor" />
+        <item name="ims" type="e3449647:DbNodeDescriptor" />
+        <item name="req_items" type="e3449647:DbNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ims" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/inter_transfer/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+              <folding>
+                <marker date="1576127315061" expanded="true" signature="1497:1880" ph="select p.pur... purchase" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="inter_tra.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/inter_tra.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1428">
+              <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+              <folding>
+                <marker date="1576562590751" expanded="true" signature="230:553" ph="SELECT i.id,... purchase" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="grn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/grn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="6" />
+              <folding>
+                <marker date="1576816290499" expanded="true" signature="234:557" ph="SELECT i.id,... purchase" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_grn.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/add_grn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/add_grn/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1003">
+              <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+              <folding>
+                <marker date="1580375270992" expanded="true" signature="1496:1879" ph="select p.pur... purchase" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="782">
+              <caret line="83" column="61" lean-forward="false" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+              <folding>
+                <marker date="1573112366000" expanded="true" signature="344:423" ph="SELECT * FRO... member" />
+                <marker date="1573112366000" expanded="true" signature="1558:1618" ph="UPDATE `memb... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aApp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/aApp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="action.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ajax/action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1564728878000" expanded="true" signature="362:451" ph="INSERT INTO tbl_name... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_grn.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ajax/add_grn.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+              <folding>
+                <marker date="1573626666000" expanded="true" signature="549:718" ph="insert into `grn`... " />
+                <marker date="1573626666000" expanded="true" signature="1066:1411" ph="INSERT INTO `grn_item`... " />
+                <marker date="1573626666000" expanded="true" signature="1536:2121" ph="UPDATE `main... " />
+                <marker date="1573626666000" expanded="true" signature="1614:1783" ph="select `qty`... grn_item" />
+                <marker date="1573626666000" expanded="true" signature="1929:2106" ph="select `item... grn_item" />
+                <marker date="1573626666000" expanded="true" signature="2199:2365" ph="UPDATE `purc... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modules/print_po/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1565251102000" expanded="true" signature="1504:1626" ph="select * fro... purchase" />
+                <marker date="1565251102000" expanded="true" signature="1914:2299" ph="..." />
+                <marker date="1565251102000" expanded="true" signature="1958:2298" ph="..." />
+                <marker date="1565251102000" expanded="true" signature="1999:2253" ph="..." />
+                <marker date="1565251102000" expanded="true" signature="2467:2902" ph="..." />
+                <marker date="1565251102000" expanded="false" signature="2811:2826" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>btn-btn</find>
+      <find>btn-pri</find>
+      <find>search</find>
+      <find>jquery</find>
+      <find>mydiv</find>
+      <find>tr</find>
+      <find>form-c</find>
+      <find>form-g</find>
+      <find>main.css</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\ims\modules\new_grn</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/ajax/grn_item.php" />
+        <option value="$PROJECT_DIR$/modules/pettycash/index.php" />
+        <option value="$PROJECT_DIR$/ajax/po_fail.php" />
+        <option value="$PROJECT_DIR$/ajax/po_fetch.php" />
+        <option value="$PROJECT_DIR$/modules/add_pur/index.php" />
+        <option value="$PROJECT_DIR$/ajax/decline.php" />
+        <option value="$PROJECT_DIR$/ajax/approved.php" />
+        <option value="$PROJECT_DIR$/ajax/pending.php" />
+        <option value="$PROJECT_DIR$/po_all.php" />
+        <option value="$PROJECT_DIR$/modules/po_all/index.php" />
+        <option value="$PROJECT_DIR$/modules/skReq/index.php" />
+        <option value="$PROJECT_DIR$/ajax/skCat.php" />
+        <option value="$PROJECT_DIR$/ajax/insertReq.php" />
+        <option value="$PROJECT_DIR$/modules/store_req/index.php" />
+        <option value="$PROJECT_DIR$/ajax/store_req.php" />
+        <option value="$PROJECT_DIR$/ajax/sUpdate.php" />
+        <option value="$PROJECT_DIR$/ajax/supplier.php" />
+        <option value="$PROJECT_DIR$/ajax/po_all.php" />
+        <option value="$PROJECT_DIR$/ajax/select.php" />
+        <option value="$PROJECT_DIR$/ajax/add_ptcash.php" />
+        <option value="$PROJECT_DIR$/ajax/add_grn.php" />
+        <option value="$PROJECT_DIR$/ajax/issuenw.php" />
+        <option value="$PROJECT_DIR$/issue.php" />
+        <option value="$PROJECT_DIR$/ajax/cRequest.php" />
+        <option value="$PROJECT_DIR$/modules/commonReq/index.php" />
+        <option value="$PROJECT_DIR$/modules/menu/index.php" />
+        <option value="$PROJECT_DIR$/new_grn.php" />
+        <option value="$PROJECT_DIR$/nwIssue.php" />
+        <option value="$PROJECT_DIR$/modules/issue/index.php" />
+        <option value="$PROJECT_DIR$/modules/nwIssue/index.php" />
+        <option value="$PROJECT_DIR$/ajax/itemPur.php" />
+        <option value="$PROJECT_DIR$/ajax/itemIssue.php" />
+        <option value="$PROJECT_DIR$/ajax/cIssue.php" />
+        <option value="$PROJECT_DIR$/ajax/po_approve.php" />
+        <option value="$PROJECT_DIR$/modules/approve_po/index.php" />
+        <option value="$PROJECT_DIR$/modules/directReq/index.php" />
+        <option value="$PROJECT_DIR$/ajax/directReq.php" />
+        <option value="$PROJECT_DIR$/modules/print_view/index.php" />
+        <option value="$PROJECT_DIR$/ajax/transfer.php" />
+        <option value="$PROJECT_DIR$/ajax/insert.php" />
+        <option value="$PROJECT_DIR$/modules/receiptOrder/index.php" />
+        <option value="$PROJECT_DIR$/ajax/store_direct.php" />
+        <option value="$PROJECT_DIR$/ajax/add_pur.php" />
+        <option value="$PROJECT_DIR$/db_connector.php" />
+        <option value="$PROJECT_DIR$/inter_transfer.php" />
+        <option value="$PROJECT_DIR$/modules/new_grn/index.php" />
+        <option value="$PROJECT_DIR$/ajax/serialNo.php" />
+        <option value="$PROJECT_DIR$/ajax/inter_tra.php" />
+        <option value="$PROJECT_DIR$/ajax/grn.php" />
+        <option value="$PROJECT_DIR$/modules/inter_transfer/index.php" />
+        <option value="$PROJECT_DIR$/modules/add_grn/index.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="e007a406-f9ea-4766-87c6-332ed22ca6cc" name="new" port="81" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2089" />
+    <option name="y" value="-8" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedFunctionInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ims" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ims" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="ims" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ims" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ajax" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../chaiiya" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ims\modules\add_item" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ims\js\plugins" />
+      <recent name="C:\xampp\htdocs\ims" />
+      <recent name="C:\xampp\htdocs\ims\modules\new_grn" />
+      <recent name="C:\xampp\htdocs\ims\modules\skReq" />
+      <recent name="C:\xampp\htdocs\ims\modules\commonReq" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.new.php">
+    <configuration name="new.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:81/ims/ajax/new.php" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.new.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Sasini Hathurusinghe\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7aa08bb-8aa3-4271-bfa4-cd9f449ec9ad" name="Default" comment="" />
+      <created>1549613475958</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549613475958</updated>
+      <workItem from="1549613477592" duration="804000" />
+      <workItem from="1549614296852" duration="2377000" />
+      <workItem from="1549616701331" duration="5000" />
+      <workItem from="1549616843198" duration="1063000" />
+      <workItem from="1549618682296" duration="1937000" />
+      <workItem from="1549856411200" duration="729000" />
+      <workItem from="1549857232583" duration="16541000" />
+      <workItem from="1549944841466" duration="8722000" />
+      <workItem from="1550031111813" duration="10347000" />
+      <workItem from="1550116043364" duration="20965000" />
+      <workItem from="1550201632751" duration="2065000" />
+      <workItem from="1550462281606" duration="2006000" />
+      <workItem from="1550552958966" duration="705000" />
+      <workItem from="1550566249190" duration="895000" />
+      <workItem from="1550636917702" duration="694000" />
+      <workItem from="1550638851961" duration="13413000" />
+      <workItem from="1550733368177" duration="6995000" />
+      <workItem from="1550819813435" duration="7502000" />
+      <workItem from="1550901915378" duration="2468000" />
+      <workItem from="1550918641085" duration="5937000" />
+      <workItem from="1551153447142" duration="9355000" />
+      <workItem from="1551239542368" duration="13077000" />
+      <workItem from="1551333400944" duration="14328000" />
+      <workItem from="1551350091209" duration="8000" />
+      <workItem from="1551409735083" duration="12879000" />
+      <workItem from="1551769779315" duration="1596000" />
+      <workItem from="1551864339737" duration="1060000" />
+      <workItem from="1551933555471" duration="2968000" />
+      <workItem from="1552020737466" duration="1842000" />
+      <workItem from="1552276418719" duration="15815000" />
+      <workItem from="1552361275570" duration="13330000" />
+      <workItem from="1552447529792" duration="3460000" />
+      <workItem from="1552539090235" duration="892000" />
+      <workItem from="1552643212476" duration="538000" />
+      <workItem from="1552887822511" duration="1254000" />
+      <workItem from="1552921265768" duration="660000" />
+      <workItem from="1552969605246" duration="2734000" />
+      <workItem from="1553066711433" duration="674000" />
+      <workItem from="1553078113319" duration="1277000" />
+      <workItem from="1553097594026" duration="626000" />
+      <workItem from="1553100555142" duration="734000" />
+      <workItem from="1553916469625" duration="1206000" />
+      <workItem from="1554090351184" duration="19354000" />
+      <workItem from="1554178496748" duration="1044000" />
+      <workItem from="1554181384892" duration="609000" />
+      <workItem from="1554266636951" duration="16487000" />
+      <workItem from="1554349043819" duration="18176000" />
+      <workItem from="1554435407923" duration="22226000" />
+      <workItem from="1554696076166" duration="18748000" />
+      <workItem from="1554792406425" duration="9822000" />
+      <workItem from="1554869609674" duration="7263000" />
+      <workItem from="1554955679734" duration="9684000" />
+      <workItem from="1557849057685" duration="1288000" />
+      <workItem from="1558681152391" duration="1043000" />
+      <workItem from="1559121673000" duration="1678000" />
+      <workItem from="1559190172093" duration="17666000" />
+      <workItem from="1559279194607" duration="7715000" />
+      <workItem from="1559619899030" duration="3977000" />
+      <workItem from="1559709158571" duration="1888000" />
+      <workItem from="1560168725248" duration="712000" />
+      <workItem from="1561126116111" duration="6137000" />
+      <workItem from="1561309398418" duration="55452000" />
+      <workItem from="1561604753821" duration="17523000" />
+      <workItem from="1561695934043" duration="12486000" />
+      <workItem from="1561958523075" duration="9521000" />
+      <workItem from="1562038244508" duration="7571000" />
+      <workItem from="1562561544629" duration="35734000" />
+      <workItem from="1563769660124" duration="627000" />
+      <workItem from="1563779412210" duration="24570000" />
+      <workItem from="1563949641462" duration="177211000" />
+      <workItem from="1566794175037" duration="598000" />
+      <workItem from="1566879541855" duration="23843000" />
+      <workItem from="1567133738020" duration="23589000" />
+      <workItem from="1568380189971" duration="181000" />
+      <workItem from="1568380469709" duration="610000" />
+      <workItem from="1568688123919" duration="11303000" />
+      <workItem from="1569472079393" duration="2354000" />
+      <workItem from="1569488681773" duration="1258000" />
+      <workItem from="1569553284318" duration="8227000" />
+      <workItem from="1571373765856" duration="3605000" />
+      <workItem from="1572325947746" duration="10497000" />
+      <workItem from="1572842299145" duration="54179000" />
+      <workItem from="1573439429660" duration="2295000" />
+      <workItem from="1573616895908" duration="21646000" />
+      <workItem from="1574656420817" duration="9686000" />
+      <workItem from="1574755999713" duration="2105000" />
+      <workItem from="1574826829585" duration="11244000" />
+      <workItem from="1575349962872" duration="2717000" />
+      <workItem from="1575431930492" duration="2946000" />
+      <workItem from="1575861750016" duration="5084000" />
+      <workItem from="1575956459318" duration="4944000" />
+      <workItem from="1576124415009" duration="3776000" />
+      <workItem from="1576140955545" duration="2391000" />
+      <workItem from="1576216449865" duration="724000" />
+      <workItem from="1576554669318" duration="5694000" />
+      <workItem from="1576738176248" duration="1271000" />
+      <workItem from="1576815778091" duration="2649000" />
+      <workItem from="1577082971864" duration="1854000" />
+      <workItem from="1577161151589" duration="1193000" />
+      <workItem from="1577776208193" duration="655000" />
+      <workItem from="1577857579219" duration="629000" />
+      <workItem from="1578024628316" duration="3038000" />
+      <workItem from="1580357775865" duration="3644000" />
+      <workItem from="1580444955559" duration="3081000" />
+      <workItem from="1591779961816" duration="918000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="994258000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-8" width="1376" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2393617" sideWeight="0.4902439" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17473525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20499243" sideWeight="0.5097561" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39934534" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="7" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/itemView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" lean-forward="true" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/menu/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="236" column="21" lean-forward="true" selection-start-line="236" selection-start-column="21" selection-end-line="236" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/commonReq/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="59" column="42" lean-forward="true" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/issue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/new_grn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nwIssue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/nwIssue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/itemPur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="72" column="17" lean-forward="true" selection-start-line="72" selection-start-column="17" selection-end-line="72" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/cRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/itemIssue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1173">
+          <caret line="74" column="25" lean-forward="false" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/cIssue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/po_approve.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="48" column="39" lean-forward="false" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/approve_po/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="123" column="47" lean-forward="false" selection-start-line="123" selection-start-column="47" selection-end-line="123" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/directReq.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/aRegion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/transfer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/issue/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="101" column="15" lean-forward="false" selection-start-line="101" selection-start-column="15" selection-end-line="101" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/grn_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/fetch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-307">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/aUnit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajaxDataCat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/ajaxData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/receiptOrder/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5424">
+          <caret line="99" column="52" lean-forward="true" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/store_req/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="51" column="68" lean-forward="false" selection-start-line="51" selection-start-column="68" selection-end-line="51" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/directReq/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="50" column="90" lean-forward="false" selection-start-line="50" selection-start-column="90" selection-end-line="50" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/store_direct.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/add_pur.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="49" column="1" lean-forward="false" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_connector.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/print_view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="460" column="46" lean-forward="false" selection-start-line="460" selection-start-column="46" selection-end-line="460" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/approve/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/view_po/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/add_item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="18" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/one_req.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Info_req.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/generate_po/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3876">
+          <caret line="228" column="80" lean-forward="false" selection-start-line="228" selection-start-column="80" selection-end-line="228" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/stock/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1247">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/select.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="28" />
+          <folding>
+            <marker date="1573115538000" expanded="true" signature="122:335" ph="SELECT g.pur... grn" />
+            <marker date="1573115538000" expanded="true" signature="464:531" ph="..." />
+            <marker date="1573115538000" expanded="true" signature="636:814" ph="..." />
+            <marker date="1573115538000" expanded="true" signature="847:1024" ph="..." />
+            <marker date="1573115538000" expanded="true" signature="1057:1240" ph="..." />
+            <marker date="1573115538000" expanded="true" signature="1277:1452" ph="..." />
+            <marker date="1573115538000" expanded="true" signature="1552:1720" ph="SELECT g.tot... grn_item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inter_transfer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/new_grn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="39" lean-forward="false" selection-start-line="114" selection-start-column="39" selection-end-line="114" selection-end-column="39" />
+          <folding>
+            <marker date="1574837075478" expanded="true" signature="132:323" ph="SELECT m.fir... grn" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/serialNo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+          <folding>
+            <marker date="1576142413323" expanded="true" signature="123:234" ph="SELECT item_... items" />
+            <marker date="1576142413323" expanded="true" signature="123:235" ph="SELECT item_... items" />
+            <marker date="1576142413323" expanded="true" signature="364:431" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="533:706" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="739:917" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="958:1541" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="1005:1427" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="1078:1391" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="1103:1366" ph="..." />
+            <marker date="1576142413323" expanded="true" signature="1648:1820" ph="SELECT g.tot... grn_item" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/print_po/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1565251102000" expanded="true" signature="1504:1626" ph="select * fro... purchase" />
+            <marker date="1565251102000" expanded="true" signature="1914:2299" ph="..." />
+            <marker date="1565251102000" expanded="true" signature="1958:2298" ph="..." />
+            <marker date="1565251102000" expanded="true" signature="1999:2253" ph="..." />
+            <marker date="1565251102000" expanded="true" signature="2467:2902" ph="..." />
+            <marker date="1565251102000" expanded="false" signature="2811:2826" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/inter_transfer/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding>
+            <marker date="1576127315061" expanded="true" signature="1497:1880" ph="select p.pur... purchase" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/inter_tra.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="89" column="20" lean-forward="false" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
+          <folding>
+            <marker date="1576562590751" expanded="true" signature="230:553" ph="SELECT i.id,... purchase" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/add_grn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/grn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="6" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="6" />
+          <folding>
+            <marker date="1576816290499" expanded="true" signature="234:557" ph="SELECT i.id,... purchase" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/add_grn/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="42" lean-forward="false" selection-start-line="59" selection-start-column="42" selection-end-line="59" selection-end-column="42" />
+          <folding>
+            <marker date="1580375270992" expanded="true" signature="1496:1879" ph="select p.pur... purchase" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="83" column="61" lean-forward="false" selection-start-line="83" selection-start-column="61" selection-end-line="83" selection-end-column="61" />
+          <folding>
+            <marker date="1573112366000" expanded="true" signature="344:423" ph="SELECT * FRO... member" />
+            <marker date="1573112366000" expanded="true" signature="1558:1618" ph="UPDATE `memb... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/aApp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1564728878000" expanded="true" signature="362:451" ph="INSERT INTO tbl_name... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ajax/add_grn.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="31" lean-forward="false" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <marker date="1573626666000" expanded="true" signature="549:718" ph="insert into `grn`... " />
+            <marker date="1573626666000" expanded="true" signature="1066:1411" ph="INSERT INTO `grn_item`... " />
+            <marker date="1573626666000" expanded="true" signature="1536:2121" ph="UPDATE `main... " />
+            <marker date="1573626666000" expanded="true" signature="1614:1783" ph="select `qty`... grn_item" />
+            <marker date="1573626666000" expanded="true" signature="1929:2106" ph="select `item... grn_item" />
+            <marker date="1573626666000" expanded="true" signature="2199:2365" ph="UPDATE `purc... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
