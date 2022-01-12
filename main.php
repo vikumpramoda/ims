@@ -1,0 +1,1 @@
+<?php add_module('menu'); ?>

@@ -1,0 +1,5 @@
+<?php
+include("templates/header.php");
+?>
+<?php add_module('confirm_received'); ?>
+
