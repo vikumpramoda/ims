@@ -32,32 +32,58 @@ $member_id  = $_SESSION['member_id'];
 
                     <div class="col-lg-12">
 
+                    <table class="table table-hover table-bordered" id="sampleTable"> 
+                            <thead>
+                            <tr> 
+                            <th>Member ID</th> 
+                            <th>NIC </th> 
+                            <th>First Name</th> 
+                            <th>Last Name</th> 
+                            <th>DOB</th> 
+                            <th>Address</th>  
+                            <th>Member Category ID</th>
+                            <th>User Name</th> 
+                            <th>Email</th>  
+                            <th>Update</th>
+                            <th>Delete</th>  
+                            </tr> 
+                            </thead>
+
                         <?php
                         include('db_connector.php');
 
 
-                        $queryl = "select `member_id`,`NIC`,`first_name`,`last_name`,`DOB`,`address`,`member-category_id`,`User_name`,`email`,`depot_id`,`region_id` from `member`  ";
+                        $queryl = "SELECT `member_id`,`NIC`,`first_name`,`last_name`,`DOB`,`address`,`member-category_id`,`User_name`,`email`,`depot_id`,`region_id` from `member`  ";
                         $resultl = mysqli_query($con,$queryl);
-                        $countl  = mysqli_num_rows($resultl);
+                        
 
-                        ?>
-
-                        <?php
-
-                        $countl = mysqli_num_rows($resultl);
-
-                        if ($resultl->num_rows > 0) {
-                            echo " <table class=\"table table-hover\" id=\"member\"> <tr> <th>Member ID</th> <th>NIC </th> <th>First Name</th> <th>Last Name</th> <th>DOB</th> <th>Address</th> <th>Member Category ID</th> <th>User Name</th> <th>Email</th>  </tr> ";
-                            // output data of each row
-                            while($row = $resultl->fetch_assoc()) {
-                                echo "<tr> <td>" . $row["member_id"]. "</td><td>" . $row["NIC"]. "</td><td>" . $row["first_name"]. "</td> <td>" . $row["last_name"]. "</td><td>" . $row["DOB"]. "</td><td>" . $row["address"]. "</td><td>" . $row["member-category_id"]. "</td><td>" . $row["User_name"]. "</td><td>" . $row["email"]. "</td>  </tr>";
-                            }
-
-                            echo "</table>";
-                        } else {
-                            echo "0 results";
-                        }
-                        ?>
+                        if (mysqli_num_rows($resultl) > 0) {
+                            while($row = mysqli_fetch_assoc($resultl)) {?>
+                                <tr> 
+                                <td style="width:1%"> <?php echo $row['member_id'];?> </td>
+                                <td> <?php echo $row["NIC"];?> </td>
+                                <td> <?php echo $row["first_name"];?> </td> 
+                                <td> <?php echo $row["last_name"];?> </td>
+                                <td> <?php echo $row["DOB"];?> </td>
+                                <td> <?php echo $row["address"];?> </td>
+                                <td style="width:10%"> <?php echo $row["member-category_id"];?> </td> 
+                                <td> <?php echo $row["User_name"];?> </td>
+                                <td> <?php echo $row["email"];?> </td>
+                                
+                                <td> 
+                                <a href="updateSupplier.php?member_id=<?php echo $row['member_id']?>" class="btn btn-secondary">
+                                <i class="fas fa-marker">Edit</i>
+                                </a>
+                                </td>
+                                <td>
+                                <a href="deleteMember.php?member_id=<?php echo $row['member_id']?>" class="btn btn-danger">
+                                <i class="far fa-trash-alt">Delete</i>
+                                </a>
+                                </td> 
+                                </tr>
+                                <?php }
+                                } ?>
+                                </table>
 
 
                     </div>
@@ -76,11 +102,24 @@ $member_id  = $_SESSION['member_id'];
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+
+
+
+<!-- Data table plugin-->
+<script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
+<script type="text/javascript">$('#sampleTable').DataTable();</script>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
 <!-- The javascript plugin to display page loading on top-->
 <script src="js/plugins/pace.min.js"></script>
 <!-- Page specific javascripts-->
 <!-- Page specific javascripts-->
 <!-- Google analytics script-->
+<script src="js/plugins/pace.min.js"></script>
 <script type="text/javascript">
     if(document.location.hostname == 'pratikborsadiya.in') {
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
