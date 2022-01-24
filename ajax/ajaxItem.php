@@ -13,7 +13,7 @@ if(isset($_POST["sub_id"]) && !empty($_POST["sub_id"])) {
     $query = "SELECT * FROM items WHERE sub_id = " . $_POST['sub_id'] . " ORDER BY item_name ASC";
     $result = mysqli_query($con,$query);
     ?>
-    <table class="table table-hover">
+    <table class="table table-hover table-bordered">
     <thead>
     <tr>
         <th>#</th>
@@ -41,7 +41,13 @@ if(isset($_POST["sub_id"]) && !empty($_POST["sub_id"])) {
                 <td><?php echo $itemCount; ?></td>
                 <td><?php echo $itemType_category_id; ?></td>
                 <td><?php echo $itemType_name; ?></td>
-                <td><button class="btn btn-primary" type="submit" id="submit" name="submit">Edit</button></td>
+               
+
+                <td> 
+                <a href="updateItem.php?item_id=<?php echo $row['item_id']?>" class="btn btn-primary">
+                <i class="fas fa-marker">Edit</i>
+                </a>
+                </td>
 
             </tr>
             <?php

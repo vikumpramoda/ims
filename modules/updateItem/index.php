@@ -1,20 +1,20 @@
 <?php
-//update Category vikum 2022-01-24
+//update item vikun   2022-01-24
 include('db_connector.php');
 include ('validateSession.php');
 
 if(isset($_POST['update']))
 {	
 
-	$sub_id = mysqli_real_escape_string($con, $_POST['sub_id']);
-	$sub_name = mysqli_real_escape_string($con, $_POST['sub_name']);
+	$item_id = mysqli_real_escape_string($con, $_POST['item_id']);
+	$item_name = mysqli_real_escape_string($con, $_POST['item_name']);
 	
 	
 	
 		//updating the table
-		$result = mysqli_query($con, "UPDATE sub_cato SET sub_name='$sub_name' WHERE sub_id=$sub_id");
+		$result = mysqli_query($con, "UPDATE items SET item_name='$item_name' WHERE item_id=$item_id");
 		//redirectig to the display page. In our case, it is index.php
-		header("Location: searchCat.php");
+		header("Location: itemView.php");
         
 	
 }
@@ -30,14 +30,14 @@ if(isset($_POST['update']))
 
 <?php
 //getting id from url
-$sub_id = $_GET['sub_id'];
+$item_id = $_GET['item_id'];
 
 //selecting data associated with this particular id
-$result = mysqli_query($con, "SELECT * FROM sub_cato WHERE sub_id=$sub_id");
+$result = mysqli_query($con, "SELECT * FROM items WHERE item_id=$item_id");
 
 while($res = mysqli_fetch_array($result))
 {
-	$sub_name = $res['sub_name'];
+	$item_name = $res['item_name'];
     
 }
 ?>
@@ -48,13 +48,13 @@ while($res = mysqli_fetch_array($result))
 <main class="app-content">
     <div class="app-title">
         <div>
-            <h1><i class="fa fa-edit"></i> Change Category Name</h1>
+            <h1><i class="fa fa-edit"></i> Change Item Name</h1>
 
         </div>
         <ul class="app-breadcrumb breadcrumb">
             <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
             <li class="breadcrumb-item">Forms</li>
-            <li class="breadcrumb-item"><a href="searchCat.php">Category</a></li>
+            <li class="breadcrumb-item"><a href="itemView.php">Item List</a></li>
         </ul>
     </div>
     <div class="row">
@@ -64,18 +64,18 @@ while($res = mysqli_fetch_array($result))
 
 
                     <div class="col-lg-11">
-                        <form class="updateCategory.php" action="updateCategory.php?id=<?php echo $_GET['sub_id']; ?>" id=" " name=" " method="POST" >
+                        <form class="updateItem.php" action="updateItem.php?id=<?php echo $_GET['item_id']; ?>" id=" " name=" " method="POST" >
 
                             <div class="form-group">
-                                <label for="sub_name$sub_name">Change Category Name</label>
-                                <input class="form-control" id="sub_name" type="text" name="sub_name" placeholder="Enter new name" value="<?php echo $sub_name; ?>">
+                                <label for="item_name">Change Item Name</label>
+                                <input class="form-control" id="item_name" type="text" name="item_name" placeholder="Enter new name" value="<?php echo $item_name; ?>">
                             </div>
 
                             
                             
 
                             <div class="tile-footer">
-                                <input type="hidden" name="sub_id" value=<?php echo $_GET['sub_id'];?>>     
+                                <input type="hidden" name="item_id" value=<?php echo $_GET['item_id'];?>>     
                                 <input class="btn btn-primary" type="submit" value="Update" id="update" name="update" >
                             </div>
 
