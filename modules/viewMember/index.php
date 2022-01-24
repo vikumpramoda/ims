@@ -71,7 +71,7 @@ $member_id  = $_SESSION['member_id'];
                                 <td> <?php echo $row["email"];?> </td>
                                 
                                 <td> 
-                                <a href="updateSupplier.php?member_id=<?php echo $row['member_id']?>" class="btn btn-secondary">
+                                <a href="updateMember2.php?member_id=<?php echo $row['member_id']?>" class="btn btn-secondary">
                                 <i class="fas fa-marker">Edit</i>
                                 </a>
                                 </td>
