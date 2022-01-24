@@ -103,8 +103,6 @@ $member_id  = $_SESSION['member_id'];
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
 
-
-
 <!-- Data table plugin-->
 <script type="text/javascript" src="js/plugins/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="js/plugins/dataTables.bootstrap.min.js"></script>
@@ -134,3 +132,7 @@ $member_id  = $_SESSION['member_id'];
 </script>
 </body>
 </html>
+
+
+
+

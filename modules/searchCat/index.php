@@ -92,6 +92,7 @@ $member_id  = $_SESSION['member_id'];
         </div>
     </div>
 </main>
+
 <script>
 
     $(document).ready(function(){
@@ -112,8 +113,6 @@ $member_id  = $_SESSION['member_id'];
 
     });
 </script>
-<!-- Essential javascripts for application to work-->
-
 
 <!-- The javascript plugin to display page loading on top-->
 <script src="js/plugins/pace.min.js"></script>

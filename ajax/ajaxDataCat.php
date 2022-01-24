@@ -13,7 +13,7 @@ if(isset($_POST["cat_id"]) && !empty($_POST["cat_id"])) {
     $query = "SELECT * FROM sub_cato WHERE cat_id = " . $_POST['cat_id'] . " ORDER BY sub_name ASC";
     $result = mysqli_query($con,$query);
     ?>
-    <table class="table table-hover">
+    <table class="table table-hover table-bordered" id="sampleTable">
     <thead>
     <tr>
         <th>#</th>
@@ -23,8 +23,6 @@ if(isset($_POST["cat_id"]) && !empty($_POST["cat_id"])) {
     </tr>
     </thead>
     <tbody>
-
-
 
 
     <?php
@@ -41,7 +39,12 @@ if(isset($_POST["cat_id"]) && !empty($_POST["cat_id"])) {
                 <td><?php echo $itemCount; ?></td>
                 <td><?php echo $itemType_category_id; ?></td>
                 <td><?php echo $itemType_name; ?></td>
-                <td><button class="btn btn-primary" type="submit" id="submit" name="submit">Edit</button></td>
+               
+                <td> 
+                <a href="updateCategory.php?sub_id=<?php echo $row['sub_id']?>" class="btn btn-primary">
+                <i class="fas fa-marker">Edit</i>
+                </a>
+                </td>
 
             </tr>
             <?php
@@ -60,3 +63,4 @@ if(isset($_POST["cat_id"]) && !empty($_POST["cat_id"])) {
     <?php
 
     ?>
+
