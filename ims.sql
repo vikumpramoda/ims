@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2022 at 10:50 AM
+-- Generation Time: Jan 31, 2022 at 06:36 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -109,7 +109,14 @@ INSERT INTO `grn` (`grn_id`, `pur_id`, `invoice`, `depot_id`, `member_id`, `grn_
 (53, NULL, '3654', 2, 1, '2019-08-08', 'bnbmn', 750),
 (54, 0, '9631', 2, 1, '2019-08-08', 'ok', 250),
 (55, 21, '19960804', 2, 1, '2021-11-10', 'sony ac', 1674400),
-(56, NULL, '50', 2, 1, '2021-11-02', 'acccccccc', 460000);
+(56, NULL, '50', 2, 1, '2021-11-02', 'acccccccc', 460000),
+(57, 29, '99855455', 2, 7, '2022-01-12', 'vikum 7', 1130880),
+(58, 31, '999999', 2, 1, '2022-01-13', 'vikum 9', 0),
+(59, 32, '555', 2, 1, '2022-01-13', 'bbnnvikum', 485.1),
+(60, NULL, '111', 2, 1, '2022-01-12', 'petty cash', 810),
+(61, NULL, '181818', 2, 1, '2022-01-18', 'pettycash 18', 180),
+(62, NULL, '181818999', 2, 1, '2022-01-18', 'pettycash vikum 18', 135),
+(63, 34, '181818', 2, 1, '2022-01-18', 'vikum gen reservied', 2150.28);
 
 -- --------------------------------------------------------
 
@@ -163,7 +170,20 @@ INSERT INTO `grn_item` (`grnItem_id`, `grn_id`, `item_id`, `qty`, `total`, `purc
 (40, 53, 10038, 25, 500, NULL),
 (41, 54, 10039, 25, 250, NULL),
 (42, 55, 10193, 8, 1674400, 18),
-(43, 56, 10193, 23, 460000, NULL);
+(43, 56, 10193, 23, 460000, NULL),
+(44, 57, 10214, 8, 520800, 29),
+(45, 57, 10215, 8, 595200, 30),
+(46, 57, 10216, 8, 7440, 31),
+(47, 57, 10217, 8, 7440, 32),
+(48, 58, 10218, 8, 0, 35),
+(49, 58, 10219, 8, 0, 36),
+(50, 59, 10211, 49, 485.1, 37),
+(51, 60, 10210, 1, 10, NULL),
+(52, 60, 10211, 2, 800, NULL),
+(53, 61, 10220, 18, 180, NULL),
+(54, 62, 10218, 1, 123, NULL),
+(55, 62, 10220, 1, 12, NULL),
+(56, 63, 10220, 181, 2150.28, 40);
 
 -- --------------------------------------------------------
 
@@ -212,7 +232,9 @@ CREATE TABLE `issue_item` (
 --
 
 INSERT INTO `issue_item` (`iss_id`, `issue_id`, `item_id`, `qty`) VALUES
-(3, 3, 8, 700);
+(3, 3, 8, 700),
+(4, 4, 10202, 12),
+(5, 4, 5444454, 96);
 
 -- --------------------------------------------------------
 
@@ -235,7 +257,8 @@ CREATE TABLE `issue_order` (
 --
 
 INSERT INTO `issue_order` (`issue_id`, `req_id`, `region_id`, `depot_id`, `member_id`, `date`, `remarks`) VALUES
-(3, 11, 1, 1, 14, '2019-04-04', 'yui');
+(3, 11, 1, 1, 14, '2019-04-04', 'yui'),
+(4, 50, 8, 23, 32, '2022-01-11', 'vikum');
 
 -- --------------------------------------------------------
 
@@ -448,12 +471,12 @@ INSERT INTO `items` (`item_id`, `item_name`, `unit`, `sub_id`, `status`) VALUES
 (10189, 'Size: 127 X 12.7 mm/Profile: 10/30', '2', 1009, 'direct'),
 (10190, 'Print & Supply of STC pay slip', '2', 1010, 'direct'),
 (10191, '5\" x 12\" /60GSM 1WB paper', '2', 1010, 'direct'),
-(10192, 'Penasonic A/C', '2', 1011, 'direct'),
+(10192, 'sony A/C', '2', 1011, 'direct'),
 (10193, 'Sony A/C', '2', 1011, 'direct'),
 (10194, 'sanitizer', '7', 1012, 'common'),
 (10195, 'masks', '2', 1012, 'common'),
 (10196, '200*600', '2', 1013, 'common'),
-(10197, 'sanitizer2', '7', 1012, 'common'),
+(10197, 'sanitizer bottle', '7', 1012, 'common'),
 (10198, 'acer i5', '2', 1015, 'common'),
 (10199, 'acer i3', '2', 1015, 'common'),
 (10200, 'i7', '2', 1015, 'common'),
@@ -462,7 +485,22 @@ INSERT INTO `items` (`item_id`, `item_name`, `unit`, `sub_id`, `status`) VALUES
 (10203, 'mac book Air', '2', 1018, 'direct'),
 (10204, 'acer mouse', '2', 1016, 'common'),
 (10205, '1 TB hard', '2', 1016, 'common'),
-(10206, '4GB Ram', '2', 1016, 'common');
+(10206, '4GB Ram', '2', 1016, 'common'),
+(10207, 'ceiling', '2', 1019, 'common'),
+(10208, 'Table fan', '2', 1019, 'direct'),
+(10209, 'Sony A/C Remote', '2', 1011, 'common'),
+(10210, 'blue pen', '2', 1014, 'common'),
+(10211, 'whiteboard pen', '2', 1014, 'common'),
+(10212, 'mac charger', '2', 1018, 'common'),
+(10213, 'USB adopter', '2', 1018, 'common'),
+(10214, 'Dell Monitor', '2', 1020, 'direct'),
+(10215, 'Dell CPU i5', '2', 1020, 'direct'),
+(10216, 'Dell Keyboard', '2', 1020, 'direct'),
+(10217, 'Dell Mouse', '2', 1020, 'direct'),
+(10218, 'sanitizerLiquids', '5', 1021, 'common'),
+(10219, 'Hand Wash Bottle', '2', 1021, 'common'),
+(10220, 'Parment  pen (CD cover)', '2', 1014, 'common'),
+(10221, 'face shield ', '2', 1021, 'common');
 
 -- --------------------------------------------------------
 
@@ -514,12 +552,12 @@ INSERT INTO `main_stock` (`id`, `item_id`, `depot_id`, `stock_level`, `remarks`,
 (3, 10033, 27, 100, '', NULL, NULL, '', '', '', '', NULL),
 (4, 10036, 27, 100, '', NULL, NULL, '', '', '', '', NULL),
 (5, 10038, 27, 250, '', NULL, NULL, '', '', '', '', NULL),
-(6, 10038, 2, 1300, '', NULL, NULL, '', '', '', '', NULL),
+(6, 10038, 2, 1200, '', NULL, NULL, '', '', '', '', NULL),
 (7, 10035, 27, 112, '', NULL, NULL, '', '', '', '', NULL),
 (8, 10039, 27, 106, '', NULL, NULL, '', '', '', '', NULL),
-(9, 10041, 2, 3210, '', NULL, NULL, '', '', '', '', NULL),
-(10, NULL, NULL, NULL, '', NULL, NULL, '', '', '', '', NULL),
-(15, 546, 5657, 6756, '', NULL, NULL, '', '', '', '', NULL),
+(9, 10041, 2, 3110, '', NULL, NULL, '', '', '', '', NULL),
+(10, 10218, 2, NULL, '', NULL, NULL, '', '', '', '', NULL),
+(15, 10219, 5657, 1, '', NULL, NULL, '', '', '', '', NULL),
 (16, 424, 324, 4234, '', NULL, NULL, '', '', '', '', NULL),
 (17, NULL, NULL, NULL, 'ghdfghdfgh', '2021-11-24', NULL, '', '', '', '', NULL),
 (18, NULL, NULL, NULL, 'ghdfghdfghfghfgh', '2021-11-24', NULL, '', '', '', '', NULL),
@@ -559,13 +597,12 @@ INSERT INTO `main_stock` (`id`, `item_id`, `depot_id`, `stock_level`, `remarks`,
 (52, NULL, NULL, NULL, 'bbbbbbbbbbb', '2021-11-30', NULL, '', '', '', '', NULL),
 (53, NULL, NULL, NULL, '2021/12/01', '2021-12-01', NULL, '', '', '', NULL, NULL),
 (54, NULL, NULL, NULL, 'rat', '2021-12-01', NULL, '1', '1', '2', '', NULL),
-(55, NULL, NULL, NULL, 'Dell lap2 vikum', '2021-12-01', NULL, '1', '3', '9', '1', '2021-12-22'),
+(55, NULL, NULL, NULL, 'Dell lap2 vikum', '2021-12-01', NULL, '1', '3', '9', 'confirm', '2021-12-22'),
 (56, NULL, NULL, NULL, 'ac', '2021-12-02', NULL, '1', '1', '2', '', NULL),
 (57, NULL, NULL, NULL, 'Table', '2021-12-02', NULL, '1', '1', '2', '2', NULL),
 (58, NULL, NULL, NULL, 'current stock pcs', '2021-12-02', NULL, '1', '1', '2', 'confirm', '2021-12-16'),
-(59, NULL, NULL, NULL, 'apple 100', '2021-12-02', NULL, '1', '1', '2', NULL, NULL),
 (60, NULL, NULL, NULL, 'test 1 vikum', '2021-12-16', NULL, '1', '1', '2', NULL, '2021-12-22'),
-(61, NULL, NULL, NULL, 'nvbvnnnnqqqqqqqqqqq', '2021-12-02', NULL, '1', '1', '2', '1', '2021-12-21'),
+(61, NULL, NULL, NULL, 'test correct 1', '2021-12-02', NULL, '1', '1', '2', NULL, '2021-12-21'),
 (62, NULL, NULL, NULL, 'Table 1', '2021-12-06', NULL, '1', '1', '2', NULL, NULL),
 (63, NULL, NULL, NULL, 'gfhdfghnnnnnnnnmmmmm', '2021-12-06', NULL, '1', '1', '2', 'Broken', NULL),
 (64, NULL, NULL, NULL, 'gg', '2021-12-06', NULL, '1', '3', '9', NULL, '2021-12-21'),
@@ -577,14 +614,24 @@ INSERT INTO `main_stock` (`id`, `item_id`, `depot_id`, `stock_level`, `remarks`,
 (73, NULL, NULL, NULL, 'uuuiiii222', '2021-12-14', NULL, '1', '1', '2', 'Broken', NULL),
 (74, NULL, NULL, NULL, 'zebrz', '2021-12-14', NULL, '1', '1', '2', 'Broken', NULL),
 (75, NULL, NULL, NULL, 'today', '2021-12-14', NULL, '1', '1', '2', '1', '2021-12-21'),
-(76, NULL, NULL, NULL, 'transfer', '2021-12-15', NULL, '1', '3', '9', '1', '2021-12-21'),
+(76, NULL, NULL, NULL, 'transfer', '2021-12-15', NULL, '1', '3', '9', 'confirm', '2021-12-21'),
 (79, NULL, NULL, NULL, 'keyboard 1', '2021-12-24', NULL, '1', '1', '2', NULL, '2021-12-16'),
-(80, NULL, NULL, NULL, 'ac it lab', '2021-12-01', NULL, '2', '3', '9', '1', '2022-01-06'),
+(80, NULL, NULL, NULL, 'ac it lab', '2021-12-01', NULL, '2', '3', '9', 'confirm', '2022-01-06'),
 (81, NULL, NULL, NULL, 'pen', '2022-01-07', NULL, '1', '1', '2', NULL, NULL),
-(82, NULL, NULL, NULL, 'm1', '2022-01-04', NULL, '1', '1', '2', NULL, NULL),
 (83, NULL, NULL, NULL, '8855555pc', '2022-02-09', NULL, '1', '1', '2', NULL, NULL),
 (84, NULL, NULL, NULL, 'ooll', '2022-01-07', NULL, '1', '1', '2', NULL, NULL),
-(85, NULL, NULL, NULL, 'pc', '2022-01-07', NULL, '1', '1', '2', NULL, NULL);
+(85, NULL, NULL, NULL, 'pc', '2022-01-07', NULL, '1', '1', '2', NULL, NULL),
+(86, NULL, NULL, NULL, 'it officer', '2022-01-10', NULL, '32', '8', '23', 'Broken', NULL),
+(87, NULL, NULL, NULL, 'fan 009', '2022-01-10', NULL, '5', '3', '9', '32', '2022-01-10'),
+(88, NULL, NULL, NULL, 'fan 10 test1', '2022-01-10', NULL, '2', '3', '9', '32', '2022-01-10'),
+(89, NULL, NULL, NULL, 'fan test1', '2022-01-10', NULL, '1', '3', '9', 'confirm', '2022-01-10'),
+(93, NULL, NULL, NULL, 'fan test 25', '2021-10-13', NULL, '2', '3', '9', 'confirm', '2022-01-10'),
+(94, NULL, NULL, NULL, 'ac test 26', '2022-01-10', NULL, '1', '1', '2', 'Broken', NULL),
+(95, NULL, NULL, NULL, 'ac test 26', '2022-01-10', NULL, '1', '1', '2', NULL, NULL),
+(96, NULL, NULL, NULL, '2 item added test 27', '2022-01-10', NULL, '1', '3', '9', 'confirm', '2022-01-10'),
+(97, 10036, 2, 0, 'test29', '2022-01-10', NULL, '5', '7', '21', '1', '2022-01-10'),
+(98, NULL, NULL, NULL, 'ac test 30', '2022-01-10', NULL, '2', '3', '9', 'confirm', '2022-01-10'),
+(99, NULL, NULL, NULL, '', '2022-01-11', NULL, '2', '3', '9', 'confirm', '2022-01-11');
 
 -- --------------------------------------------------------
 
@@ -633,7 +680,6 @@ INSERT INTO `main_stock_item` (`stockId`, `id`, `item_name`, `serial`, `date`) V
 (28, 57, '10198', 'xgffghd', '2021-10-13'),
 (29, 58, '10193', 'cgnxcn', '2021-11-16'),
 (30, 58, '10198', 'cgnxcncfhgxcg', '2021-02-04'),
-(31, 59, '10198', 'bjbn j', '2021-11-25'),
 (50000, 65, '10198', 'xq', '2021-12-03'),
 (70000, 61, '10200', 'cv bbbnvbn', '2021-11-09'),
 (96111, 64, '10198', 'stc', '2021-12-02'),
@@ -656,13 +702,28 @@ INSERT INTO `main_stock_item` (`stockId`, `id`, `item_name`, `serial`, `date`) V
 (8963540, 79, '10201', 'stc/it/005', '2021-12-24'),
 (8963541, 80, '10192', 'stc/it/005', '2021-12-24'),
 (8963542, 81, '10202', 'Stc-it-pen', '2022-01-07'),
-(8963543, 82, '10203', 'stcit', '2022-01-07'),
 (8963544, 83, '10198', 'stc/op', '2022-01-07'),
 (8963545, 84, '10198', 'bcvn', '2022-01-06'),
 (8963546, 84, '10201', 'bcvn', '2022-01-03'),
 (8963547, 85, '10199', 'stc-it', '2022-01-07'),
 (8963548, 85, '10205', 'stc-it-ip', '2022-01-07'),
-(8963549, 85, '10206', 'stc-it-ip', '2022-01-07');
+(8963549, 85, '10206', 'stc-it-ip', '2022-01-07'),
+(8963550, 86, '10208', 'stc/it/fan/0023', '2022-01-10'),
+(8963551, 86, '10208', 'stc/it/fan/0024', '2022-01-10'),
+(8963552, 87, '10207', 'stc/it/fan/009', '2022-01-10'),
+(8963553, 88, '10208', 'Stc/it/fan/0010', '2022-01-10'),
+(8963554, 89, '10208', 'stc/it/008', '2022-01-10'),
+(8963558, 93, '10208', 'stc/it/fan/009', '2022-01-10'),
+(8963559, 94, '10193', 'stc/it/ac/023', '2022-01-10'),
+(8963560, 95, '10193', 'stc/it/ac/023', '2022-01-10'),
+(8963561, 96, '10193', 'stc', '2022-01-10'),
+(8963562, 96, '10209', 'stcgh', '2022-01-10'),
+(8963563, 97, '10193', 'stc/it/ac/023', '2022-01-10'),
+(8963564, 97, '10209', 'stc/it/ac/023', '2022-01-10'),
+(8963565, 98, '10193', 'stc/it/ac/099', '2022-01-10'),
+(8963566, 98, '10209', 'stc/it/ac/099', '2022-01-10'),
+(8963567, 99, '10193', 'stc/it/056', '2022-01-11'),
+(8963568, 99, '10209', 'stc/it/057', '2022-01-11');
 
 -- --------------------------------------------------------
 
@@ -691,14 +752,14 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`member_id`, `NIC`, `first_name`, `last_name`, `DOB`, `address`, `member-category_id`, `User_name`, `Password`, `last_login`, `email`, `depot_id`, `region_id`) VALUES
-(1, '80754542V', 'Egodauyana Manager 1', 'Vikum 3', '2019-01-03', 'Kadawatha', 1, 'Admin', 'aa', '2022-01-07 10:11:58', 'aadmin@library.com', 2, 1),
-(2, 'eeee', 'nimal', 'silvaa', '2019-01-03', 'address', 2, 'vikum', 'aa', '2022-01-06 06:28:22', 'silva@gmail.com', 9, 3),
-(3, '875621042V', 'Mahinda', 'Jayasundara', '2019-01-03', 'My address', 1, 'mahinda', 'aa', '2019-04-04 07:04:40', 'm@library.com', 2, 1),
-(4, NULL, NULL, NULL, NULL, NULL, 2, 'Student3', 'aa', NULL, NULL, NULL, NULL),
-(5, NULL, NULL, NULL, NULL, NULL, 2, 'Student4', 'aa', NULL, NULL, NULL, NULL),
-(6, NULL, 'Prof 1 First', 'Prof Last', NULL, NULL, 3, 'Prof1', 'aa', '2019-04-08 09:25:29', NULL, NULL, NULL),
-(7, NULL, NULL, NULL, NULL, NULL, 3, 'prof2', 'aa', '2019-02-07 06:48:21', NULL, NULL, NULL),
-(8, NULL, NULL, NULL, NULL, NULL, 3, 'prof3', 'aa', NULL, NULL, NULL, NULL),
+(1, '80754549V', 'Egodauyana Officer', 'Vikum 3', '2019-01-03', 'Kadawatha', 1, 'Admin', 'aa', '2022-01-31 05:37:31', 'aadmin@library.com', 2, 1),
+(2, 'eeee', 'Mathara Officer', 'silvaa', '2019-01-03', 'address', 2, 'vikum', 'aa', '2022-01-31 05:34:31', 'silva@gmail.com', 9, 3),
+(3, '875621042V', 'Admin', 'P Officer', '2019-01-03', 'My address', 1, 'pramo', 'aa', '2019-04-04 07:04:40', 'm@library.com', 2, 1),
+(4, '80754542V', 'store keeper', 'jkljk', '2019-01-03', 'ghh addres', 2, 'store', 'aa', '2022-01-12 05:36:20', 'prahh@gmail.com', 2, 1),
+(5, '80754842V', 'purchasing O', 'officer', '2019-01-03', ' addresghj', 3, 'purchasingO', 'aa', '2022-01-12 05:43:10', 'prahh@gmail.c', 2, 1),
+(6, '80754545V', 'purchasing M', 'Manager', '2019-01-03', ' addrestfyyu', 4, 'purchasingM', 'aa', '2022-01-12 06:15:55', 'prahh@gmail.c', 2, 1),
+(7, '80754742V', 'officer', 'officer', '2019-01-03', ' addresfrtyfry', 5, 'Officer', 'aa', '2022-01-31 04:59:19', 'prahh@gmail.c', 2, 1),
+(8, '80759942V', 'manager', 'manager', '2019-01-03', ' addresyugfyy', 6, 'Manager', 'aa', NULL, 'prahh@gmail.c', 2, 1),
 (9, NULL, NULL, NULL, NULL, NULL, 3, 'Prof4', 'aa', NULL, NULL, NULL, NULL),
 (10, NULL, NULL, NULL, NULL, NULL, 3, 'Prof5', 'aa', NULL, NULL, NULL, NULL),
 (11, '960000V', 'sa', 'sa', '2019-04-03', 'panadura', 2, 'sasi', '1223', '2021-11-08 19:31:11', '50sasini@gmail.com', 2, 1),
@@ -715,7 +776,9 @@ INSERT INTO `member` (`member_id`, `NIC`, `first_name`, `last_name`, `DOB`, `add
 (28, '952285898V', 'Sasini', 'Mendis', '2019-04-04', 'Galle', 1, 'sasin', 'Sasini12', NULL, '50sasini@gmail.com', 3, 2),
 (29, '920015434V', 'Shanika', 'Perera', '1992-08-01', 'Haputhale', 6, 'shani', 'Shani123', '2019-07-25 06:58:17', 'shani@gmail.com', 17, 5),
 (30, '968523458v', 'vikum', 'pramoda', '2015-06-17', 'vbxc', 6, 'vikum', '!@#QWE123qwe', NULL, 'pramoda@gmail.com', 19, 6),
-(31, '9685741235v', 'vikum', 'pramoda', '2018-06-13', 'fjcghj', 1, 'vikum', 'qwe', '2021-11-15 07:22:09', 'pramoda@gmail.com', 23, 8);
+(31, '9685741235v', 'vikum', 'pramoda', '2018-06-13', 'fjcghj', 1, 'vikum', 'qwe', '2021-11-15 07:22:09', 'pramoda@gmail.com', 23, 8),
+(32, '9621852345v', 'Pramoda', 'Pramodatygtu', '1994-07-13', 'Thalangama', 5, 'pramoda', 'aa', '2022-01-10 08:42:40', 'pramoda789@gmail.com', 23, 8),
+(33, '968523451v', 'Shehan', 'Tharuka', '1998-06-08', 'Ampara', 5, 'shehan', 'aa', '2022-01-10 08:44:21', 'shehan11@gmail.com', 21, 7);
 
 -- --------------------------------------------------------
 
@@ -777,8 +840,21 @@ INSERT INTO `purchase` (`pur_id`, `pur_date`, `supplier`, `status`, `file_no`, `
 (19, '2019-07-02', 41, 'processing', '12560', '1213', '3060.20', '459.20', '61.20', '3580.20', 1, 1, '2019-11-27', 'Urgent for stock,Please deliver soon.', 'NO:136/5/1, ', 'Kahanthota Road, ', 'Pittugala', 'Malabe'),
 (20, '2019-07-02', 41, 'processing', '145525', '21221', '3105.00', '465.75', '62.10', '3632.85', 1, 1, '2019-07-04', 'wwww', 'NO:136/5/1, ', 'Kahanthota Road, ', 'Malabe', ''),
 (21, '2021-11-10', 39, 'processing', '96', '96', '1674400.00', '251160.00', '0.00', '1925560.00', 1, 1, '2021-11-10', 'iukee', '22', '12', '21', 'gsdfghhhh'),
-(22, '2021-11-10', NULL, 'incomplete', NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(23, '2021-11-10', NULL, 'incomplete', NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(22, '2021-11-10', 38, 'processing', '544', '181888', NULL, NULL, NULL, NULL, 1, NULL, NULL, 'vikum', '55', 'jjjjiui', 'hjbvh', 'gnvcn'),
+(23, '2021-11-10', NULL, 'incomplete', NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(24, '2022-01-11', NULL, 'incomplete', NULL, NULL, NULL, NULL, NULL, NULL, 5, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(25, '2022-01-11', NULL, 'incomplete', NULL, NULL, NULL, NULL, NULL, NULL, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(26, '2022-01-11', 24, 'processing', '9684', '199684', '2333925.00', '350088.75', '0.00', '2684013.75', 6, NULL, NULL, 'po- purchase order', '81', 'hakmana', 'rd', 'beliatta'),
+(27, '2022-01-11', NULL, 'incomplete', NULL, NULL, NULL, NULL, NULL, NULL, 6, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(28, '2022-01-12', 10, 'processing', '006', '66', '545200.00', '81780.00', '0.00', '626980.00', 5, NULL, NULL, 'purchase order 06 vikum test 6', 'Stc', 'stc 1', '2', 'Colombo 3 '),
+(29, '2022-01-12', 38, 'processing', '007', '7', '1130880.00', '169632.00', '0.00', '1300512.00', 6, 6, '2022-01-12', 'dfgsdfgsd vikuium test 7', 'dfghsdh', 'qqq', 'wwww', 'eeeee'),
+(30, '2022-01-13', 30, 'processing', '456456', '546456', NULL, NULL, NULL, NULL, 1, NULL, NULL, 'qqqqqqqq', '5464', '4564', 'fghf', 'fhfdgh'),
+(31, '2022-01-13', 32, 'processing', '99', '99', '0.00', '0.00', '0.00', '0.00', 1, 1, '2022-01-13', 'vikum 9 -  plmoijnuhbvgy', 'stc', 'atc', 'stc', 'stc'),
+(32, '2022-01-13', 36, 'processing', '45646', '6456', '485.10', '72.77', '0.00', '557.87', 1, 1, '2022-01-13', 'jgjjj vikum pen', 'jj', 'jjj', 'jjjj', 'jjjjk'),
+(33, '2022-01-18', 22, 'processing', '200', '78999999999', '3520.00', '35.20', '70.40', '3625.60', 1, NULL, NULL, 'dvsdvsdvsdv', 'fd', 'dvsbv', 'sdvdvd', 'sdvsdvsdv'),
+(34, '2022-01-18', 41, 'processing', '56456418', '181888', '2150.28', '322.54', '43.01', '2515.83', 1, 1, '2022-01-18', 'vikum 18', 'hjgfjgh', 'jjjjiui', 'yuityjn', 'bnmgnm'),
+(35, '2022-01-18', 39, 'processing', '555', '5555', '4510540.50', '0.00', '0.00', '4510540.50', 1, 1, '2022-01-18', 'klllllllllllllllll', '55', '5erg', 'tert', 'jjj'),
+(36, '2022-01-18', 24, 'processing', '56456418', '456456', NULL, '1.00', NULL, NULL, 1, NULL, NULL, 'gfhfghf', 'hjgfjgh', 'gnhgf', 'fghf', 'jjj');
 
 -- --------------------------------------------------------
 
@@ -808,8 +884,31 @@ INSERT INTO `purchase_item` (`id`, `pur_id`, `item_id`, `qty`, `unit_price`, `di
 (16, 19, 10036, 22, '100.00', '0.10', '90.00', '1980.00', 'approved'),
 (17, 20, 10039, 23, '150.00', '0.10', '135.00', '3105.00', NULL),
 (18, 21, 10193, 8, '230000.00', '0.09', '209300.00', '1674400.00', 'complete'),
-(19, 22, 10193, 8, NULL, NULL, NULL, NULL, NULL),
-(20, 23, 10193, 8, NULL, NULL, NULL, NULL, NULL);
+(19, 22, 10193, 8, '555.00', '0.05', '527.25', '4218.00', NULL),
+(20, 23, 10193, 8, NULL, NULL, NULL, NULL, NULL),
+(21, 24, 10193, 230, NULL, NULL, NULL, NULL, NULL),
+(22, 25, 10193, 230, NULL, NULL, NULL, NULL, NULL),
+(23, 26, 10193, 230, '10250.00', '0.01', '10147.50', '2333925.00', NULL),
+(24, 27, 10193, 230, NULL, NULL, NULL, NULL, NULL),
+(25, 28, 10214, 8, '15000.00', '0.06', '14100.00', '112800.00', NULL),
+(26, 28, 10215, 8, '56000.00', '0.06', '52640.00', '421120.00', NULL),
+(27, 28, 10216, 8, '1000.00', '0.06', '940.00', '7520.00', NULL),
+(28, 28, 10217, 8, '500.00', '0.06', '470.00', '3760.00', NULL),
+(29, 29, 10214, 8, '70000.00', '0.07', '65100.00', '520800.00', 'complete'),
+(30, 29, 10215, 8, '80000.00', '0.07', '74400.00', '595200.00', 'complete'),
+(31, 29, 10216, 8, '1000.00', '0.07', '930.00', '7440.00', 'complete'),
+(32, 29, 10217, 8, '1000.00', '0.07', '930.00', '7440.00', 'complete'),
+(33, 30, 10034, 25, '5.00', '0.05', '4.75', '118.75', NULL),
+(34, 30, 10036, 22, '5.00', '0.05', '4.75', '104.50', NULL),
+(35, 31, 10218, 8, '0.00', '0.00', '0.00', '0.00', 'complete'),
+(36, 31, 10219, 8, '0.00', '0.00', '0.00', '0.00', 'complete'),
+(37, 32, 10211, 49, '10.00', '0.01', '9.90', '485.10', 'complete'),
+(38, 33, 10218, 96, '33.00', '0.33', '22.11', '2122.56', NULL),
+(39, 33, 10219, 64, '33.00', '0.03', '32.01', '2048.64', NULL),
+(40, 34, 10220, 181, '12.00', '0.01', '11.88', '2150.28', 'complete'),
+(41, 35, 10216, 20, '555.00', '0.05', '527.25', '10545.00', 'approved'),
+(42, 35, 10217, 18, '555555.00', '0.55', '249999.75', '4499995.50', 'approved'),
+(43, 36, 10208, 15, '1000.00', '0.01', '990.00', '14850.00', NULL);
 
 -- --------------------------------------------------------
 
@@ -893,7 +992,19 @@ INSERT INTO `reciept` (`r_id`, `req_id`, `r_date`) VALUES
 (63, 79, NULL),
 (64, 82, NULL),
 (65, 82, NULL),
-(66, 82, NULL);
+(66, 82, NULL),
+(67, 130, NULL),
+(68, 86, NULL),
+(69, 86, NULL),
+(70, 75, NULL),
+(71, 75, NULL),
+(72, 75, NULL),
+(73, 86, NULL),
+(74, 130, NULL),
+(75, 130, NULL),
+(76, 130, NULL),
+(77, 130, NULL),
+(78, 130, NULL);
 
 -- --------------------------------------------------------
 
@@ -1048,7 +1159,34 @@ INSERT INTO `req` (`req_number`, `date`, `user`, `region`, `depot`, `remarks`, `
 (103, '2021-11-24', '1', '1', '2', '1111we', 'Fail', NULL),
 (104, '2021-11-25', '1', '1', '2', 'opopopopopopopopop', 'Fail', NULL),
 (105, '2021-11-25', '1', '1', '2', '454546456ghhgf9666666', '1', '2021-12-14'),
-(106, '2021-12-02', '1', '1', '2', 'kkkk', NULL, NULL);
+(106, '2021-12-02', '1', '1', '2', 'kkkk', NULL, NULL),
+(107, '2022-01-11', '1', '1', '2', 'sony a/c test1', NULL, NULL),
+(108, '2022-01-11', '7', '1', '2', 'vikum test 01', '4', '2022-01-11'),
+(109, '2022-01-12', '7', '1', '2', 'dell pc vikum test 66', '6', '2022-01-12'),
+(110, '2022-01-13', '1', '1', '2', 'vikum test 7', '1', '2022-01-13'),
+(111, '2022-01-13', '1', NULL, '2', 'test 8', '1', NULL),
+(112, '2022-01-13', '1', '1', '2', NULL, '1', '2022-01-13'),
+(113, '2022-01-12', '1', NULL, '2', 'test 10', '1', NULL),
+(114, '2022-01-12', '1', NULL, '2', 'pen', '1', NULL),
+(115, '2022-01-12', '1', NULL, '2', '33', '1', NULL),
+(116, '2022-01-01', '1', NULL, '2', '44', '1', NULL),
+(117, '2022-01-01', '1', NULL, '2', 'vikum 30', '1', NULL),
+(118, '2022-01-13', '1', NULL, '2', 'vikum', '1', NULL),
+(119, '2022-01-13', '1', '1', '2', NULL, '1', '2022-01-13'),
+(120, '2022-01-18', '1', '1', '2', '18 vikum', '1', '2022-01-18'),
+(121, '2022-01-18', '1', '1', '2', NULL, '1', '2022-01-18'),
+(122, '2022-01-18', '1', '1', '2', '18 vikum 1', '1', '2022-01-18'),
+(123, '2022-01-18', '1', '1', '2', 'vikum 18', '1', '2022-01-18'),
+(124, '2022-01-18', '1', '1', '2', 'vikum 18188', '1', '2022-01-18'),
+(125, '2022-01-18', '1', '1', '2', '1812', '1', '2022-01-18'),
+(126, '2022-01-18', '1', NULL, '2', 'add 180 P.pen', '1', NULL),
+(127, '2022-01-18', '1', '1', '2', NULL, '1', '2022-01-18'),
+(128, '2022-01-18', '1', '1', '2', '888', '1', '2022-01-18'),
+(129, '2022-01-18', '1', '1', '2', '19 add', '1', '2022-01-18'),
+(130, '2022-01-18', '1', '1', '2', 'vikum', '1', '2022-01-18'),
+(131, '2022-01-18', '1', '1', '2', 'fan', '1', '2022-01-18'),
+(132, '2022-01-18', '1', '1', '2', '7', '1', '2022-01-18'),
+(133, '2022-01-19', '1', '1', '2', 'date 19', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1095,7 +1233,7 @@ INSERT INTO `req_items` (`reqID`, `req_number`, `item_name`, `qty`, `status`, `e
 (20, NULL, '10018', 12, NULL, NULL, NULL, NULL, NULL),
 (21, NULL, '10010', 14, NULL, NULL, NULL, NULL, NULL),
 (22, 77, '10010', 12, NULL, NULL, NULL, NULL, NULL),
-(23, 75, '10018', 12, NULL, NULL, NULL, NULL, NULL),
+(23, 75, '10018', 12, 'issue', NULL, NULL, NULL, NULL),
 (24, 74, '10010', 23, 'Fail', NULL, NULL, NULL, NULL),
 (25, 74, '10015', 123, 'approved', NULL, NULL, NULL, NULL),
 (26, 48, '10011', 122, 'approved', NULL, NULL, NULL, NULL),
@@ -1139,10 +1277,10 @@ INSERT INTO `req_items` (`reqID`, `req_number`, `item_name`, `qty`, `status`, `e
 (79, 78, '10041', 200, 'done', NULL, '1', 2, '2019-08-30'),
 (80, 79, '10034', 20, 'done', NULL, '2', 2, '2019-08-30'),
 (82, 82, '10038', 50, 'done', NULL, '1', 2, '2019-08-30'),
-(83, 86, '10038', NULL, 'direct', 10, NULL, NULL, NULL),
+(83, 86, '10038', NULL, 'issue', 10, NULL, NULL, NULL),
 (84, 89, '10036', NULL, 'direct', 10, NULL, NULL, NULL),
 (85, 91, '10034', NULL, 'direct', 25, NULL, NULL, NULL),
-(86, 92, '10051', 100, 'approved', NULL, NULL, NULL, NULL),
+(86, 92, '10051', 100, 'done', NULL, NULL, NULL, NULL),
 (87, 93, '10061', 400, 'direct', NULL, '1', NULL, NULL),
 (88, 94, '10061', NULL, 'direct', 25, NULL, NULL, NULL),
 (89, 95, '10021', 50, 'approved', NULL, NULL, NULL, NULL),
@@ -1151,14 +1289,58 @@ INSERT INTO `req_items` (`reqID`, `req_number`, `item_name`, `qty`, `status`, `e
 (92, 97, '10030', 2, 'approved', NULL, NULL, NULL, NULL),
 (93, 98, '10195', 200, 'approved', NULL, NULL, NULL, NULL),
 (94, 98, '10194', 2, 'approved', NULL, NULL, NULL, NULL),
-(95, 99, '10193', 50, NULL, NULL, NULL, NULL, NULL),
-(96, 100, '10193', 66786800, NULL, NULL, NULL, NULL, NULL),
+(95, 99, '10193', 50, 'pending', NULL, NULL, NULL, NULL),
+(96, 100, '10193', 66786800, 'pending', NULL, NULL, NULL, NULL),
 (97, 101, '10193', 222, 'approved', NULL, NULL, NULL, NULL),
 (100, 103, '10200', 11, 'Fail', NULL, NULL, NULL, NULL),
 (101, 104, '10198', 116, 'Fail', NULL, NULL, NULL, NULL),
 (102, 104, '10198', 757, 'Fail', NULL, NULL, NULL, NULL),
 (103, 105, '10198', 852, 'approved', NULL, NULL, NULL, NULL),
-(104, 106, '10198', 2, NULL, NULL, NULL, NULL, NULL);
+(104, 106, '10198', 2, NULL, NULL, NULL, NULL, NULL),
+(105, 107, '10193', 4, 'pending', NULL, NULL, NULL, NULL),
+(106, 107, '10209', 4, NULL, NULL, NULL, NULL, NULL),
+(107, 108, '10203', 5, 'approved', NULL, NULL, NULL, NULL),
+(108, 108, '10208', 3, 'approved', NULL, NULL, NULL, NULL),
+(109, 109, '10215', 8, 'approved', NULL, NULL, NULL, NULL),
+(110, 109, '10214', 8, 'approved', NULL, NULL, NULL, NULL),
+(111, 109, '10217', 8, 'approved', NULL, NULL, NULL, NULL),
+(112, 109, '10216', 8, 'approved', NULL, NULL, NULL, NULL),
+(113, 110, '10218', 7, 'approved', NULL, '1', NULL, NULL),
+(114, 110, '10219', 7, 'approved', NULL, NULL, NULL, NULL),
+(115, 111, '10219', 8, 'direct', NULL, '1', NULL, NULL),
+(116, 111, '10218', 8, 'direct', NULL, '1', NULL, NULL),
+(117, 112, '10218', NULL, 'direct', 0, NULL, NULL, NULL),
+(118, 112, '10219', NULL, 'direct', 0, NULL, NULL, NULL),
+(119, 113, '10219', 10, 'direct', NULL, '1', NULL, NULL),
+(120, 113, '10218', 10, 'direct', NULL, '1', NULL, NULL),
+(121, 114, '10211', 10, 'direct', NULL, '1', NULL, NULL),
+(122, 115, '10218', 33, 'direct', NULL, '1', NULL, NULL),
+(123, 116, '10219', 44, 'direct', NULL, '1', NULL, NULL),
+(124, 116, '10218', 44, 'direct', NULL, '1', NULL, NULL),
+(125, 117, '10211', 30, 'direct', NULL, '1', NULL, NULL),
+(126, 118, '10211', 3, 'direct', NULL, '1', NULL, NULL),
+(127, 119, '10211', NULL, 'direct', 6, NULL, NULL, NULL),
+(128, 120, '10219', 18, 'approved', NULL, NULL, NULL, NULL),
+(129, 120, '10218', 18, 'approved', NULL, NULL, NULL, NULL),
+(130, 121, '10218', NULL, 'done', 1, NULL, NULL, NULL),
+(131, 121, '10219', NULL, 'direct', 2, NULL, NULL, NULL),
+(132, 122, '10210', 18, 'approved', NULL, NULL, NULL, NULL),
+(133, 122, '10220', 18, 'approved', NULL, NULL, NULL, NULL),
+(134, 123, '10220', 18, 'approved', NULL, NULL, NULL, NULL),
+(135, 124, '10219', 18, 'approved', NULL, NULL, NULL, NULL),
+(136, 124, '10218', 181, 'approved', NULL, NULL, NULL, NULL),
+(137, 125, '10219', 18, 'approved', NULL, NULL, NULL, NULL),
+(138, 125, '10218', 19, 'approved', NULL, NULL, NULL, NULL),
+(139, 126, '10220', 180, 'direct', NULL, '1', NULL, NULL),
+(140, 127, '10220', NULL, 'direct', 1, NULL, NULL, NULL),
+(141, 128, '10220', 8, 'approved', NULL, NULL, NULL, NULL),
+(142, 129, '10220', 19, 'approved', NULL, NULL, NULL, NULL),
+(143, 130, '10216', 12, 'issue', NULL, NULL, NULL, NULL),
+(144, 130, '10217', 10, 'approved', NULL, NULL, NULL, NULL),
+(145, 131, '10208', 5, 'approved', NULL, NULL, NULL, NULL),
+(146, 132, '10208', 7, 'approved', NULL, NULL, NULL, NULL),
+(147, 133, '10219', 2, NULL, NULL, NULL, NULL, NULL),
+(148, 133, '10218', 2, NULL, NULL, NULL, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -1193,10 +1375,10 @@ INSERT INTO `stock_supplier` (`sup_id`, `sup_name`, `sup_address`, `2nd`, `3rd`,
 (29, 'Kasuni', 'kollupitiya,colombo', NULL, NULL, NULL, '0771234567', 'kasuni456@gmail.com', '2019-02-17'),
 (30, 'amila', 'kaduvela,colombo', NULL, NULL, NULL, '0777894561', 'amila098@gmail.com', '2019-02-12'),
 (31, 'nishan', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0777894561', 'sandun123@gmail.com', '2019-02-07'),
-(32, 'sedfsff', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0777894561', 'fdo123@gmail.com', '2019-02-01'),
-(33, 'erggreg', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0776541237', 'sandun123@gmail.com', '2019-02-05'),
+(32, 'lankaHospital', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0777894561', 'fdo123@gmail.com', '2019-02-01'),
+(33, 'datatec.', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0776541237', 'sandun123@gmail.com', '2019-02-05'),
 (34, 'sunil', 'malabe.kaduvela', NULL, NULL, NULL, '0770532987', 'sunil321@gmail.com', '2019-04-02'),
-(35, 'gghh', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0777894561', 'sdfsfsfs@gmail.com', '2019-04-03'),
+(35, 'sujith', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0777894561', 'sdfsfsfs@gmail.com', '2019-04-03'),
 (36, 'thtfhfh', 'no:224,St. Merino Garden,Pahala Hattiniya,Marawila', NULL, NULL, NULL, '0777894561', 'fdo123@gmail.com', '2019-04-03'),
 (37, '', '', NULL, NULL, NULL, '', '', '0000-00-00'),
 (38, 'asd store', 'no 80 wadduwa', NULL, NULL, NULL, '0715449154', 'aas@dd.com', '2019-04-16'),
@@ -1221,7 +1403,7 @@ CREATE TABLE `sub_cato` (
 --
 
 INSERT INTO `sub_cato` (`sub_id`, `sub_name`, `cat_id`) VALUES
-(1000, 'Electrical Goods ', 101),
+(1000, 'Electrical item', 101),
 (1001, 'Stationery ', 101),
 (1002, 'Hardware Items', 101),
 (1003, 'Miscellaneous', 101),
@@ -1233,13 +1415,16 @@ INSERT INTO `sub_cato` (`sub_id`, `sub_name`, `cat_id`) VALUES
 (1009, 'Spares for Machinery / Heavy vehicles ', 101),
 (1010, 'Printing', 101),
 (1011, 'A/C', 100),
-(1012, 'covid-19', 101),
+(1012, 'Health safe items', 101),
 (1013, 'whiteboard', 100),
-(1014, 'pen', 101),
+(1014, 'Pen', 101),
 (1015, 'PC', 100),
 (1016, 'Computer Items', 100),
 (1017, 'Writing pen', 101),
-(1018, 'Laptop -mac', 100);
+(1018, 'Laptop -mac', 100),
+(1019, 'Fan', 100),
+(1020, 'Dell Pc', 100),
+(1021, 'covid-19- Safe Items', 101);
 
 -- --------------------------------------------------------
 
@@ -1269,7 +1454,7 @@ INSERT INTO `supplier` (`sup_id`, `sup_name`, `sup_contact`, `sup_address`, `sad
 (7, 'Kusumsiriee', '+94719632854', 'New Data tec.', 'Hakmana Road', 'Beliatta', 'Sri Lanka', 'tytuyuhjug7@gmail.com', '2022-01-07', '3dfbvgsdfbvgd'),
 (8, 'kelum tharaka', '+94717885698', 'Dell tec.no', 'Weriweeriya', 'Colombo 3', 'India', 'delltscdhj9956@gmail.com', '2022-01-07', '9999'),
 (9, 'Tharaka', '+94717178965', 'Traraka Enterpricess', 'Narammala', 'Kurunegala', 'colombo 3', 'tharaka97@gmail.com', '2022-01-07', 'dfgsdgdnnnn'),
-(10, 'Rasingolla ', '+94719685182', 'Rasi', 'Walapane', 'Nuwara Eliya', 'UpCountry', 'rasi56@gmail.com', '2022-01-07', 'iiikjlllll');
+(10, 'Rasingolla ', '+94719685182', 'Rasi', 'Walapane', 'Nuwara Eliya', 'UpCountry.', 'rasi56@gmail.com', '2022-01-07', 'iiikjlllll');
 
 -- --------------------------------------------------------
 
@@ -1464,13 +1649,13 @@ ALTER TABLE `depot`
 -- AUTO_INCREMENT for table `grn`
 --
 ALTER TABLE `grn`
-  MODIFY `grn_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `grn_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
 
 --
 -- AUTO_INCREMENT for table `grn_item`
 --
 ALTER TABLE `grn_item`
-  MODIFY `grnItem_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+  MODIFY `grnItem_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- AUTO_INCREMENT for table `images`
@@ -1482,19 +1667,19 @@ ALTER TABLE `images`
 -- AUTO_INCREMENT for table `issue_item`
 --
 ALTER TABLE `issue_item`
-  MODIFY `iss_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `iss_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `issue_order`
 --
 ALTER TABLE `issue_order`
-  MODIFY `issue_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `issue_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `items`
 --
 ALTER TABLE `items`
-  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10207;
+  MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10222;
 
 --
 -- AUTO_INCREMENT for table `main_cato`
@@ -1506,19 +1691,19 @@ ALTER TABLE `main_cato`
 -- AUTO_INCREMENT for table `main_stock`
 --
 ALTER TABLE `main_stock`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
 
 --
 -- AUTO_INCREMENT for table `main_stock_item`
 --
 ALTER TABLE `main_stock_item`
-  MODIFY `stockId` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8963550;
+  MODIFY `stockId` int(50) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8963569;
 
 --
 -- AUTO_INCREMENT for table `member`
 --
 ALTER TABLE `member`
-  MODIFY `member_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=32;
+  MODIFY `member_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
 -- AUTO_INCREMENT for table `member_category`
@@ -1530,19 +1715,19 @@ ALTER TABLE `member_category`
 -- AUTO_INCREMENT for table `purchase`
 --
 ALTER TABLE `purchase`
-  MODIFY `pur_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `pur_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `purchase_item`
 --
 ALTER TABLE `purchase_item`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
 
 --
 -- AUTO_INCREMENT for table `reciept`
 --
 ALTER TABLE `reciept`
-  MODIFY `r_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `r_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `region`
@@ -1554,13 +1739,13 @@ ALTER TABLE `region`
 -- AUTO_INCREMENT for table `req`
 --
 ALTER TABLE `req`
-  MODIFY `req_number` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=107;
+  MODIFY `req_number` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=134;
 
 --
 -- AUTO_INCREMENT for table `req_items`
 --
 ALTER TABLE `req_items`
-  MODIFY `reqID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=105;
+  MODIFY `reqID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=149;
 
 --
 -- AUTO_INCREMENT for table `stock_supplier`
@@ -1572,7 +1757,7 @@ ALTER TABLE `stock_supplier`
 -- AUTO_INCREMENT for table `sub_cato`
 --
 ALTER TABLE `sub_cato`
-  MODIFY `sub_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1019;
+  MODIFY `sub_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1022;
 
 --
 -- AUTO_INCREMENT for table `supplier`
