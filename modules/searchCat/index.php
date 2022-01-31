@@ -21,8 +21,8 @@ $member_id  = $_SESSION['member_id'];
         </div>
         <ul class="app-breadcrumb breadcrumb">
             <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-            <li class="breadcrumb-item">Forms</li>
-            <li class="breadcrumb-item"><a href="#">Search Category</a></li>
+            <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="searchCat.php">Search Category</a></li>
         </ul>
     </div>
     <div class="row">

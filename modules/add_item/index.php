@@ -200,7 +200,7 @@ $member_id  = $_SESSION['member_id'];
             }
             ?>
 
-<div class="tile-footer">
+                            <div class="tile-footer">
                                 <a href="itemView.php">
                                     <button class="btn btn-success" > View Item List
                                     </button>
