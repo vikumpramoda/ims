@@ -92,10 +92,10 @@ if(($member_category_id == '1') || ($member_category_id == '2') || ($member_cate
 
                             <div class="tile-footer">
                                 <a href="searchCat.php">
-                                    <button class="btn btn-success" > View Category Name
+                                    <button class="btn btn-success" > View Category Name List
                                     </button>
                                 </a>    
-                                </div>
+                            </div>
                         </div>
 
                     </div>

@@ -55,8 +55,8 @@ $member_id  = $_SESSION['member_id'];
         </div>
         <ul class="app-breadcrumb breadcrumb">
             <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-            <li class="breadcrumb-item">Forms</li>
-            <li class="breadcrumb-item"><a href="#">Add Items</a></li>
+            <li class="breadcrumb-item"><a href="dashboard.php">Home</a></li>
+            <li class="breadcrumb-item"><a href="add_item.php">Add Items</a></li>
         </ul>
     </div>
     <div class="row">
@@ -128,7 +128,7 @@ $member_id  = $_SESSION['member_id'];
                             </div>
 
                             <div class="tile-footer">
-                                <button class="btn btn-primary" type="submit" id="submit" name="submit">Submit</button>
+                                <button class="btn btn-primary" type="submit" id="submit" name="submit">Add Item</button>
                             </div>
 
 
@@ -199,12 +199,21 @@ $member_id  = $_SESSION['member_id'];
 
             }
             ?>
+
+<div class="tile-footer">
+                                <a href="itemView.php">
+                                    <button class="btn btn-success" > View Item List
+                                    </button>
+                                </a>    
+                            </div>
             </div>
         </div>
+        
 
 
     </div>
 
+  
 
 
 
