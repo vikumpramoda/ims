@@ -518,6 +518,44 @@
                 <li><a class="app-menu__item active" href="dashboard.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Dashboard</span></a></li>
 
 
+                <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Items</span><i class="treeview-indicator fa fa-angle-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="add_category.php"><i class="icon fa fa-circle-o"></i> Add New Category</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="add_item.php"><i class="icon fa fa-circle-o"></i> Add Item</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="searchCat.php"><i class="icon fa fa-circle-o"></i>Category</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="itemView.php"><i class="icon fa fa-circle-o"></i>Items</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="stock.php"><i class="icon fa fa-circle-o"></i>Stock</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="add_current_stock.php"><i class="icon fa fa-circle-o"></i>Add Current Stock</a></li>
+                    </ul>
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="view_current_stock.php"><i class="icon fa fa-circle-o"></i>Generate Barcode</a></li>
+                    </ul>
+
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="view_barcode.php"><i class="icon fa fa-circle-o"></i>View Barcode</a></li>
+                    </ul>
+
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="transfer.php"><i class="icon fa fa-circle-o"></i>Stock Transfer to another Dipo</a></li>
+                    </ul>
+
+                    <ul class="treeview-menu">
+                        <li><a class="treeview-item" href="view_transfer.php"><i class="icon fa fa-circle-o"></i>View Transfered List</a></li>
+                    </ul>
+
+                </li>
+
+
 
                 <li class="treeview"><a class="app-menu__item" href="#" data-toggle="treeview"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">GRN</span><i class="treeview-indicator fa fa-angle-right"></i></a>
                     <ul class="treeview-menu">

@@ -11,7 +11,7 @@ $member_category_id	       = $_SESSION['member-category_id'];
 $email =  $_SESSION['email'];
 
 
-if(($member_category_id == '1') || ($member_category_id == '2')  ){
+if(($member_category_id == '1') || ($member_category_id == '2') || ($member_category_id == '5') ){
     ?>
     <html>
     <head>
@@ -55,8 +55,8 @@ if(($member_category_id == '1') || ($member_category_id == '2')  ){
             </div>
             <ul class="app-breadcrumb breadcrumb">
                 <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-                <li class="breadcrumb-item">Forms</li>
-                <li class="breadcrumb-item"><a href="#">Add Category</a></li>
+                <li class="breadcrumb-item"><a href="dashboard.php"> Home </a> </li>
+                <li class="breadcrumb-item"><a href="add_category.php">Add Category</a></li>
             </ul>
         </div>
         <div class="row">
@@ -78,18 +78,24 @@ if(($member_category_id == '1') || ($member_category_id == '2')  ){
 
                                 <div class="form-group">
                                     <label>New Sub Category Name</label>
-                                    <input class="form-control" id="sub_name" name="sub_name" type="text"
-                                           placeholder="Category Name" required>
+                                    <input class="form-control" id="sub_name" name="sub_name" type="text" placeholder="Category Name" required>
                                 </div>
 
 
                                 <div class="tile-footer">
-                                    <button class="btn btn-primary" type="submit" id="submit" name="submit">submit
+                                    <button class="btn btn-primary" type="submit" id="submit" name="submit">Add Category Name
                                     </button>
                                 </div>
 
 
                             </form>
+
+                            <div class="tile-footer">
+                                <a href="searchCat.php">
+                                    <button class="btn btn-success" > View Category Name
+                                    </button>
+                                </a>    
+                                </div>
                         </div>
 
                     </div>
