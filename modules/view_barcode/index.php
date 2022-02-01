@@ -135,7 +135,7 @@ $result = mysqli_query($con, $query);
 
 
 
-<div id="display2">
+<div id=" ">
     <?php
 if(isset($_POST['PrintTable'])){
 
@@ -144,7 +144,7 @@ if(isset($_POST['PrintTable'])){
         /* print_r("<br>"); */
         foreach($_POST['lang'] as $value){
             ?>    
-            <div class=" ">
+            <div id="display2">
                 <img src="uploads/<?php echo $value?>"> 
                 <br>
                 </div>             
